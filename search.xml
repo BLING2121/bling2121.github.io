@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[有点东西]]></title>
+    <url>%2F2019%2F08%2F13%2F%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF%2F</url>
+    <content type="text"><![CDATA[拍的一些照片]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F08%2F10%2FHello-World%2F</url>
     <content type="text"><![CDATA[Welcome欢迎]]></content>
