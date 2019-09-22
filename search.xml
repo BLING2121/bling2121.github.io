@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Linux的一些shell命令]]></title>
+    <url>%2F2019%2F09%2F22%2FLinux%E7%9A%84%E4%B8%80%E4%BA%9Bshell%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[记录linux中的一些shell命令查看当前绝对路径 1pwd 查看某个目录下的文件属性 12ls常用选项：-l、-a 查看文件内容 12345headtaillessmorecat 输入 1echo 重定向 12&gt; 或 &gt;&gt;&lt; 或 &lt;&lt; 管道 1| 查找指定内容，可以配合管道使用 12grepfind]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>shell命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[面向对象编程]]></title>
     <url>%2F2019%2F08%2F15%2F%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%2F</url>
     <content type="text"><![CDATA[面向对象编程什么是面向对象编程 面向对象编程就是以个体作为编程的主要思路，符合我们人的思维。比如倒一杯水，我们说的是：我用保温杯去饮水机倒一杯水。这里的我、保温杯、饮水机就是个体，也就是对象。在以面向对象的思想编程时，要分析要解决的问题，从中找到所有对象，在搭建整个程序框架的时候，就直接以各个对象之间的相互行为进行编程。 怎么进行面向对象编程 面向对象编程其实很简单，因为我们人类的思维就是面向对象的。以倒水来举例。 第一步，搭建框架 要解决的是“我用保温杯去饮水机到一杯水”这个问题，找到其中的对象：我、保温杯、饮水机。分析三个对象之间的行为：在这个程序中，我具有拿这个行为，保温杯具有接水这个行为，饮水机具有出水这个行为。 框架就是将保温杯传给拿这个接口，将保温杯的接水传给饮水机的出水。（具体怎么拿、怎么出水、怎么接水，这个不管，由各个对象自己决定。） 第二步，定义类 所谓类，其实就是具有相同属性和行为的对象的集合。在倒水这个例子中，可以定义三个类：倒水的人、水杯、出水源。 倒水的人 123456789class 倒水的人&#123;public: 倒水的人(std::string 人); int 拿(string something);private: std::string 人; std::string 拿的东西;&#125; 水杯 123456789class 水杯&#123;public: 水杯(std::string 水杯类型,int 杯中水量); int 接水();private: std::string 水杯类型; int 杯中的水量;&#125; 出水源 123456789class 出水源&#123;public: 出水源(std::string 水源类型,int 剩余水量); int 出水(bool 是否出水);private: std::string 水源类型 int 剩余水量;&#125; 实例化 上面三个就是三个类的定义，具体代码实现之后就可以进行实例化，也就是实例化成我、保温杯、饮水机，然后通过方法（行为）进行互动。 123倒水的人 人(我);水杯 杯子(保温杯,0);出水源 水源(饮水机,100); 实例化之后就可以相互互动了。 先写到这里，我的理解目前就这样。之后理解更深的话在继续写。]]></content>
