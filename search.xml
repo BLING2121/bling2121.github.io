@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Linux的一些shell命令]]></title>
     <url>%2F2019%2F09%2F22%2FLinux%E7%9A%84%E4%B8%80%E4%BA%9Bshell%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[记录linux中的一些shell命令查看当前绝对路径 1pwd 查看某个目录下的文件属性 12ls常用选项：-l、-a 查看文件内容 12345headtaillessmorecat 输入 1echo 重定向 12&gt; 或 &gt;&gt;&lt; 或 &lt;&lt; 管道 1| 查找指定内容，可以配合管道使用 12grepfind]]></content>
+    <content type="text"><![CDATA[记录linux中的一些shell命令查看当前绝对路径 1pwd 查看某个目录下的文件属性 12ls常用选项：-l、-a 查看文件内容 12345headtaillessmorecat 输入 1echo 重定向 12&gt; 或 &gt;&gt;&lt; 或 &lt;&lt; 管道 1| 查找指定内容，可以配合管道使用 12grepfind 查看进程 12pstop]]></content>
       <categories>
         <category>技术</category>
       </categories>
