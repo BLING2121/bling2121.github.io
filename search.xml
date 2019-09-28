@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[pacman的基本使用]]></title>
     <url>%2F2019%2F09%2F28%2Fpacman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[pacman的基本使用安装软件1# pacman -S package_name1 package_name2 ... 删除软件1234567891011121314删除单个软件包，保留全部已经安装的依赖关系。# pacman -R package_name删除指定软件包，以及没有被其他已安装软件包使用的依赖关系。# pacman -Rs package_name删除软件包和所有依赖这个软件包的程序，慎用！！！# pacman -Rsc package_name删除软件包，但不删除依赖这个软件包的其他程序。# pacman -Rdd package_name避免在删除时程序自动备份配置文件，但软件自己创建的文件pacman不会删除。# pacman -Rn package_name 选项可以混合使用，比如说： 12删除软件包，以及没被使用的依赖关系，并避免备份配置文件。# pacman -Rsn package_name 注意：软件自己创建的文件pacman不会删除！！！ 升级软件12推荐使用# pacman -Syyu 清理软件包缓存pacman下载的软件包都保存在/var/cache/pacman/pkg/，并且不会自动移除没用的软件包。 12删除近2个版本前的软件包# paccache -rk 2]]></content>
+    <content type="text"><![CDATA[pacman的基本使用安装软件1# pacman -S package_name1 package_name2 ... 删除软件1234567891011121314删除单个软件包，保留全部已经安装的依赖关系。# pacman -R package_name删除指定软件包，以及没有被其他已安装软件包使用的依赖关系。# pacman -Rs package_name删除软件包和所有依赖这个软件包的程序，慎用！！！# pacman -Rsc package_name删除软件包，但不删除依赖这个软件包的其他程序。# pacman -Rdd package_name避免在删除时程序自动备份配置文件，但软件自己创建的文件pacman不会删除。# pacman -Rn package_name 选项可以混合使用，比如说： 12删除软件包，以及没被使用的依赖关系，并避免备份配置文件。# pacman -Rsn package_name 注意：软件自己创建的文件pacman不会删除！！！ 升级软件12推荐使用# pacman -Syyu 清理软件包缓存pacman下载的软件包都保存在/var/cache/pacman/pkg/，并且不会自动移除没用的软件包。 12删除近2个版本前的软件包# paccache -rk 2 注意：paccache在pacman-contrib这个包里面。]]></content>
       <categories>
         <category>技术</category>
       </categories>

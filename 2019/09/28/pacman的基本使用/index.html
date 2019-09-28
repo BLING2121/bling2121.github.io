@@ -66,7 +66,7 @@
 <meta property="og:site_name" content="BlingBling">
 <meta property="og:description" content="pacman的基本使用安装软件1# pacman -S package_name1 package_name2 ...  删除软件1234567891011121314删除单个软件包，保留全部已经安装的依赖关系。# pacman -R package_name删除指定软件包，以及没有被其他已安装软件包使用的依赖关系。# pacman -Rs package_name删除软件包和所有依赖这个软件包的">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-28T18:58:24.761Z">
+<meta property="og:updated_time" content="2019-09-28T19:13:21.824Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="pacman的基本使用">
 <meta name="twitter:description" content="pacman的基本使用安装软件1# pacman -S package_name1 package_name2 ...  删除软件1234567891011121314删除单个软件包，保留全部已经安装的依赖关系。# pacman -R package_name删除指定软件包，以及没有被其他已安装软件包使用的依赖关系。# pacman -Rs package_name删除软件包和所有依赖这个软件包的">
@@ -314,7 +314,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-09-29 02:58:24" itemprop="dateModified" datetime="2019-09-29T02:58:24+08:00">2019-09-29</time>
+                <time title="修改时间：2019-09-29 03:13:21" itemprop="dateModified" datetime="2019-09-29T03:13:21+08:00">2019-09-29</time>
               </span>
             
           
@@ -349,7 +349,7 @@
               
                 <span class="post-meta-item-text">本文字数：</span>
               
-              <span>540</span>
+              <span>573</span>
             </span>
           
             <span class="post-meta-item" title="阅读时长">
@@ -385,6 +385,7 @@
 <h3 id="清理软件包缓存"><a href="#清理软件包缓存" class="headerlink" title="清理软件包缓存"></a>清理软件包缓存</h3><p>pacman下载的软件包都保存在<code>/var/cache/pacman/pkg/</code>，并且不会自动移除没用的软件包。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">删除近2个版本前的软件包</span><br><span class="line"><span class="comment"># paccache -rk 2</span></span><br></pre></td></tr></table></figure>
 
+<p>注意：paccache在pacman-contrib这个包里面。</p>
 
     </div>
 
