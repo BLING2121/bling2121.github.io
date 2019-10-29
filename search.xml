@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[linux常用命令]]></title>
     <url>%2F2019%2F10%2F29%2Flinux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[tar命令常用命令参数tar命令是linux中的一个压缩/解压缩命令。 常用压缩命令为： 123tar -czvf 压缩包.tar.gz 要压缩的文件夹例如：tar -czvf my_config.tar.gz ~/.config 常用解压缩命令为： 123tar -xzvf 要解压的压缩包.tar.gz例如：tar -xzvf my_config.tar.gz 参数详解tar命令有很多参数，需要注意搭配使用！ -c 新建压缩文件。-x 解压缩。-f 指定要压缩或解压的文件。-j 以bzip2的方式压缩或解压，后缀名为.tar.br2。-z 以gzip的方式压缩或解压，后缀名为.tar.gz。-v 压缩或解压时，将涉及到的文件全部显示出来。-t 查看压缩包中的文件。 在常用命令中用到的是-z，所以生成.tar.gz压缩包。]]></content>
+    <content type="text"><![CDATA[tar命令常用命令参数tar命令是linux中的一个压缩/解压缩命令。 常用压缩命令为： 123tar -czvf 压缩包.tar.gz 要压缩的文件夹例如：tar -czvf my_config.tar.gz ~/.config 常用解压缩命令为： 123tar -xzvf 要解压的压缩包.tar.gz例如：tar -xzvf my_config.tar.gz 参数详解tar命令有很多参数，需要注意搭配使用！ -c 新建压缩文件。-x 解压缩。-f 指定要压缩或解压的文件。-j 以bzip2的方式压缩或解压，后缀名为.tar.br2。-z 以gzip的方式压缩或解压，后缀名为.tar.gz。-v 压缩或解压时，将涉及到的文件全部显示出来。-t 查看压缩包中的文件。 在常用命令中用到的是-z，所以生成.tar.gz压缩包。 du命令常用命令du命令用来查看文件/文件夹大小 常用命令： 123du -sh 文件/文件夹例如：du -sh .config 常用参数详解下面是du的常用参数。 -h 以可读方式（K、M、G）显示。-a 递归显示文件夹及其子文件夹大小。-s 显示文件夹大小。-c 显示几个文件夹大小，并统计他们的大小总和。\]]></content>
       <categories>
         <category>技术</category>
       </categories>
