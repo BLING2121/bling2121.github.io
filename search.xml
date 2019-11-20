@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[qt学习记录一]]></title>
+    <url>%2F2019%2F11%2F20%2Fqt%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E4%B8%80%2F</url>
+    <content type="text"><![CDATA[QT学习记录一现在我开始学习QT了，在这记录下学习过程。 目前学习程度目前已经学习两天，熟悉了Qt Creator的界面布局，熟悉了Qt Designer的界面布局，并使用一些控件做出了一个简单的计算器。 已掌握技术目前已经学习完信号与槽机制。所谓信号与槽，就是将控件与函数connect起来，并设置一个监听信号监听所设置的事件，当控件触发这个事件时，就调用连接起来的那个函数。当然，这个函数必须要是一个槽函数。 如下面的张图所示， 槽函数如下图所示，与普通函数相比，只多了一个slots，其他地方和普通函数一样。 下面的就是连接函数，伪代码是: connect(谁，怎么了，谁，干什么); 总结我的理解：信号与槽机制就是通过监听控件的事件，触发它所connect的函数。]]></content>
+      <tags>
+        <tag>qt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[linux常用命令]]></title>
     <url>%2F2019%2F10%2F29%2Flinux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[tar命令常用命令参数tar命令是linux中的一个压缩/解压缩命令。常用压缩命令为：tar -czvf 压缩包.tar.gz 要压缩的文件夹例如： 1tar -czvf my_config.tar.gz ~/.config 常用解压缩命令为：tar -xzvf 要解压的压缩包.tar.gz例如： 1tar -xzvf my_config.tar.gz 参数详解tar命令有很多参数，需要注意搭配使用！-c 新建压缩文件。-x 解压缩。-f 指定要压缩或解压的文件。-j 以bzip2的方式压缩或解压，后缀名为.tar.br2。-z 以gzip的方式压缩或解压，后缀名为.tar.gz。-v 压缩或解压时，将涉及到的文件全部显示出来。-t 查看压缩包中的文件。 在常用命令中用到的是-z，所以生成.tar.gz压缩包。 du命令常用命令du命令用来查看文件/文件夹大小常用命令：du -sh 文件/文件夹例如： 1du -sh .config 常用参数详解下面是du的常用参数。-h 以可读方式（K、M、G）显示。-a 递归显示文件夹及其子文件夹大小。-s 显示文件夹大小。-c 显示几个文件夹大小，并统计他们的大小总和。]]></content>
